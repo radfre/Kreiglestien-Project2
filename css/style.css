@@ -1,9 +1,5 @@
-
-
-
-
 #navbar-container{
-  background: blue;
+  background: black;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -30,13 +26,13 @@
 }
 
 #navbar-container ul li a:hover{
-  background-color: #000;
+  background-color: #b4b2a7;
   text-decoration: underline overline;
 }
 
 
 #sidebar-container{
-  background-color: red;
+  background-color: #CC5500;
   overflow: hidden;
   position: fixed;
   right: 0%;
@@ -56,11 +52,12 @@
 #sidebar-container ul li a{
   display: block;
   padding: 15px 0;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 #sidebar-container ul li a:hover{
-  background-color: #000;
+  color: #fff;
+  background-color: #b4b2a7;
 }
 
