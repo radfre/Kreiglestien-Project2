@@ -126,6 +126,7 @@ body {
 #cont {
     display: inline-block;
     width: 70%;
+    font-size: 30px;
     margin: 0 0;
 }
 
@@ -133,21 +134,30 @@ body {
     float: left;
 }
 
-
-
 #cont-text {
     display: inline-block;
-    margin: 0 0;
+    margin: 0.1em;
 }
 
-#cont-text p {
-    margin: 0 0;
+#cont-text ul {
+    list-style-type: none;
     float: left;
+    font-family: 'ubuntu', sans-serif;
+}
+
+#cont-text ul li{
+    padding: 0.15em;
+}
+
+#cont-text ul li a{
+    display: block;
+
 }
 
 #cont2 {
     display: inline-block;
     width: 70%;
+    font-size: 20px;
     margin: 0 0;
 }
 
@@ -165,6 +175,13 @@ body {
 #cont3 {
     display: inline-block;
     width: 70%;
+    font-size: 20px;
+    margin: 0;
+}
+#cont4 {
+    display: inline-block;
+    width: 70%;
+    font-size: 20px;
     margin: 0;
 }
 #cont3-media{
