@@ -4,7 +4,6 @@
 body {
     padding: 0 0;
     margin: 0;
-    background-color: black;
 }
 
 #navbar-container {
@@ -217,44 +216,54 @@ body {
 
 .resume {
     background-color: #fff;
-    padding: 15%;
     margin-top: 1rem;
     display: block;
     height: auto;
     top: auto;
-    width: 80%;
+    width: 100%;
 
 }
 
-.baking {
+#baking {
     background-color: #DBEBEF;
-    margin-top: 38px;
-    display: block;
+    margin-top: 3rem;
     height: auto;
+    display: block;
     top: auto;
-    width: 80%;
+    width: 100%;
 
 }
 
-#about {
-    display: inline-block;
-    width: 70%;
+#baking h1 {
+    display: block;
+    padding: 1rem 1rem;
     margin: 0 0;
+    color: #000;
+    width: 100%;
+    background-color: #a189fd;
+    font-family: "Ubuntu", serif;
 }
 
-#about img {
-    float: left;
-}
-
-#about-text {
-
+#baking h3 {
+    display: block;
+    padding: 1rem 1rem;
     margin: 0 0;
+    color: #fff;
+    width: 100%;
+    background-color: #474747;
+    font-family: "Ubuntu", serif;
 }
 
-#about-text p {
+#baking h4 {
+    display: block;
+    padding: 1rem 1rem;
     margin: 0 0;
-    float: left;
+    color: #000;
+    width: 100%;
+    background-color: #a189fd;
+    font-family: "Inter", serif;
 }
+
 
 
 
