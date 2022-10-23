@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
 
 body {
     padding: 0 0;
@@ -89,6 +91,8 @@ body {
     width: 100%;
     background-color: #a189fd;
     font-family: "Ubuntu", serif;
+    font-size: xx-large;
+
 }
 
 #homepage h3 {
@@ -133,13 +137,13 @@ body {
 }
 
 #baking {
-    background-color: #DBEBEF;
+    background-color: #F7F1FE;
     margin-top: 3rem;
     height: auto;
     display: block;
     top: auto;
     width: 100%;
-    font-family: "Ubuntu",'Helvetica', serif;
+    font-family: 'Palanquin', sans-serif;
 
 
 }
@@ -150,24 +154,28 @@ body {
     margin: 0 0;
     color: #000;
     width: 100%;
-    background-color: #a189fd;
+    font-family: 'Tangerine', sans-serif;
+    font-size: 4em;
 }
 
 #baking h2 {
     display: block;
     padding: 1rem 1rem;
     margin: 0 0;
-    color: #fff;
+    color: #000;
     width: 100%;
-    background-color: #474747;
+
+    font-size: xx-large;
  }
 #baking p {
     padding: 1em 1em;
-    max-width: 50%;
+    margin: 0 0;
+    max-width: 85%;
 }
 
 #baking img {
     display: inline-block;
+    padding: 1em 1em;
 
 }
 
@@ -178,25 +186,29 @@ body {
     height: auto;
     top: auto;
     width: 100%;
-
+    font-family: 'ubuntu', sans-serif;
+}
+#resume h1{
+    display: block;
+    padding: 1rem 1rem;
+    margin: 0 0;
+    color: #000;
+    width: 100%;
+    font-size: 4em;
+}
+#resume h2, #resume h3{
+    margin: 0 1em;
+    padding: 0.5em 1em;
 }
 
-
-
-#cont {
+#cont{
     display: inline-block;
     width: 70%;
     font-size: 30px;
     margin: 0 0;
 }
-
-#cont img {
+#cont img{
     float: left;
-}
-
-#cont-text {
-    display: inline-block;
-    margin: 0.1em;
 }
 
 #cont-text ul {
@@ -214,65 +226,39 @@ body {
 
 }
 
-#cont2 {
+#cont1, #cont2, #cont3, #cont4, #cont5, #cont6{
     display: inline-block;
-    width: 70%;
     font-size: 20px;
-    margin: 0 0;
 }
 
-#cont2 img {
+#cont1 img, #cont2 img, #cont2 img, #cont3 img, #cont4 img, #cont5 img, #cont6 img{
     display: block;
     float: left;
 }
 
-#cont2-text {
+#cont-text, #cont-text1, #cont-text2, #cont-text3, #cont-text4, #cont-text5, #cont-text6{
     display: inline-block;
+    height: 100%;
+}
+#cont-text p, #cont-text1 p, #cont-text3 p, #cont-text4 p, #cont-text5 p, #cont-text6 p{
     margin: 0 0;
+    float: left;
 }
 
 
-#cont3 {
-    display: inline-block;
-    width: 70%;
-    font-size: 20px;
-    margin: 0;
-}
-#cont4 {
-    display: inline-block;
-    width: 70%;
-    font-size: 20px;
-    margin: 0;
-}
 #cont3-media{
     display: inline-block;
-    margin: 0;
-    height: 100%;
     float: left;
+    width: 17em;
 }
 
 #cont3-media img {
+    display: inline-block;
     width: 16em;
-    height: auto;
-    display: block;
+
 }
 
 #cont3-media video {
-    width: 16em;
-    height: auto;
-    display: block;
-    margin: 0;
-}
-
-
-#cont3-text {
     display: inline-block;
-    margin: 0 0;
+    width: 16em;
 }
-
-#cont3-text p {
-    margin: 0 0;
-    float: left;
-}
-
-
