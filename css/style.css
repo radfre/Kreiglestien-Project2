@@ -6,12 +6,13 @@ body {
     margin: 0;
     background-color: black;
 }
+
 #navbar-container {
     background: black;
     width: 100%;
     position: fixed;
     display: block;
-    top:0;
+    top: 0;
 
 }
 
@@ -81,37 +82,37 @@ body {
 
 }
 
-#homepage h1{
+#homepage h1 {
     display: block;
     padding: 1rem 1rem;
     margin: 0 0;
     color: #000;
     width: 100%;
-    background-color: #c9bbfe;
+    background-color: #a189fd;
     font-family: "Ubuntu", serif;
 }
 
-#homepage h3{
-    display: block;
-    padding: 1rem 1rem;
-    margin: 0 0;
-    color: #000;
-    width: 100%;
-    background-color: #c9bbfe;
-    font-family: "Ubuntu", serif;
-}
-
-#homepage h4{
+#homepage h3 {
     display: block;
     padding: 1rem 1rem;
     margin: 0 0;
     color: #fff;
     width: 100%;
-    background-color: #000;
+    background-color: #474747;
+    font-family: "Ubuntu", serif;
+}
+
+#homepage h4 {
+    display: block;
+    padding: 1rem 1rem;
+    margin: 0 0;
+    color: #000;
+    width: 100%;
+    background-color: #a189fd;
     font-family: "Inter", serif;
 }
 
-#homepage p{
+#homepage p {
     padding: 1em 1em;
     max-width: 50%;
     font-family: 'Helvetica', sans-serif;
@@ -120,6 +121,81 @@ body {
 #homepage img {
     display: inline-block;
 
+}
+
+#cont {
+    display: inline-block;
+    width: 70%;
+    margin: 0 0;
+}
+
+#cont img {
+    float: left;
+}
+
+
+
+#cont-text {
+    display: inline-block;
+    margin: 0 0;
+}
+
+#cont-text p {
+    margin: 0 0;
+    float: left;
+}
+
+#cont2 {
+    display: inline-block;
+    width: 70%;
+    margin: 0 0;
+}
+
+#cont2 img {
+    display: block;
+    float: left;
+}
+
+#cont2-text {
+    display: inline-block;
+    margin: 0 0;
+}
+
+
+#cont3 {
+    display: inline-block;
+    width: 70%;
+    margin: 0;
+}
+#cont3-media{
+    display: inline-block;
+    margin: 0;
+    height: 100%;
+    float: left;
+}
+
+#cont3-media img {
+    width: 16em;
+    height: auto;
+    display: block;
+}
+
+#cont3-media video {
+    width: 16em;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+#cont3-text {
+    display: inline-block;
+    margin: 0 0;
+}
+
+#cont3-text p {
+    margin: 0 0;
+    float: left;
 }
 
 .resume {
@@ -143,13 +219,24 @@ body {
 
 }
 
-#test111 {
-    display: block;
+#about {
+    display: inline-block;
+    width: 70%;
     margin: 0 0;
 }
-#test111 p{
-    text-align: left;
-    display: inline-block;
+
+#about img {
+    float: left;
+}
+
+#about-text {
+
+    margin: 0 0;
+}
+
+#about-text p {
+    margin: 0 0;
+    float: left;
 }
 
 
