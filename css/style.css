@@ -7,8 +7,12 @@ body {
     padding: 0 0;
     margin: 0;
 }
+#navbar-container{
+    width: 100%;
+    text-align: center;
 
-#navbar-container {
+}
+#navbar {
     background: black;
     width: 100%;
     position: fixed;
@@ -17,17 +21,17 @@ body {
 
 }
 
-#navbar-container ul {
+#navbar ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-#navbar-container ul li {
+#navbar ul li {
     display: inline-block;
 }
 
-#navbar-container ul li a {
+#navbar ul li a {
     display: block;
     padding: 1rem 2rem;
     height: 1rem;
@@ -36,7 +40,7 @@ body {
     font-family: "Ubuntu", serif;
 }
 
-#navbar-container ul li a:hover {
+#navbar ul li a:hover {
     background-color: #b4b2a7;
     text-decoration: underline overline;
 }
