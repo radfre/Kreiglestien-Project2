@@ -166,7 +166,8 @@ body {
     width: 100%;
 
     font-size: xx-large;
- }
+}
+
 #baking p {
     padding: 1em 1em;
     margin: 0 0;
@@ -188,7 +189,8 @@ body {
     width: 100%;
     font-family: 'ubuntu', sans-serif;
 }
-#resume h1{
+
+#resume h1 {
     display: block;
     padding: 1rem 1rem;
     margin: 0 0;
@@ -196,18 +198,20 @@ body {
     width: 100%;
     font-size: 4em;
 }
-#resume h2, #resume h3{
+
+#resume h2, #resume h3 {
     margin: 0 1em;
     padding: 0.5em 1em;
 }
 
-#cont{
+#cont {
     display: inline-block;
     width: 70%;
     font-size: 30px;
     margin: 0 0;
 }
-#cont img{
+
+#cont img {
     float: left;
 }
 
@@ -217,36 +221,37 @@ body {
     font-family: 'ubuntu', sans-serif;
 }
 
-#cont-text ul li{
+#cont-text ul li {
     padding: 0.15em;
 }
 
-#cont-text ul li a{
+#cont-text ul li a {
     display: block;
 
 }
 
-#cont1, #cont2, #cont3, #cont4, #cont5, #cont6{
+#cont1, #cont2, #cont3, #cont4, #cont5, #cont6 {
     display: inline-block;
     font-size: 20px;
 }
 
-#cont1 img, #cont2 img, #cont2 img, #cont3 img, #cont4 img, #cont5 img, #cont6 img{
+#cont1 img, #cont2 img, #cont2 img, #cont3 img, #cont4 img, #cont5 img, #cont6 img {
     display: block;
     float: left;
 }
 
-#cont-text, #cont-text1, #cont-text2, #cont-text3, #cont-text4, #cont-text5, #cont-text6{
+#cont-text, #cont-text1, #cont-text2, #cont-text3, #cont-text4, #cont-text5, #cont-text6 {
     display: inline-block;
     height: 100%;
 }
-#cont-text p, #cont-text1 p, #cont-text3 p, #cont-text4 p, #cont-text5 p, #cont-text6 p{
+
+#cont-text p, #cont-text1 p, #cont-text3 p, #cont-text4 p, #cont-text5 p, #cont-text6 p {
     margin: 0 0;
     float: left;
 }
 
 
-#cont3-media{
+#cont3-media {
     display: inline-block;
     float: left;
     width: 17em;
